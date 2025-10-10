@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Site do André</title>
+<style>
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: #f4f4f9;
+        margin: 0;
+        padding: 0;
+    }
+
+    /* Header */
+    header {
+        background-color: #988aa5;
+        color: white;
+        padding: 20px 0;
+        text-align: center;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    }
+
+    header h1 {
+        margin: 0 0 10px 0;
+    }
+
+    /* Menu */
+    nav ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        display: flex;             /* Flexbox para alinhar em linha */
+        justify-content: center;   /* Centraliza horizontalmente */
+        gap: 20px;                 /* Espaço entre os links */
+        background-color: #6B7D97;
+        border-radius: 8px;
+    }
+
+    nav a {
+        text-decoration: none;
+        color: white;
+        padding: 10px 15px;
+        display: block;
+        transition: background-color 0.3s;
+    }
+
+    nav a:hover {
+        background-color: #88aaff;
+        border-radius: 5px;
+        color: black;
+    }
+
+    /* Main */
+    main {
+        padding: 20px;
+        max-width: 1000px;
+        margin: auto;
+    }
+
+    section {
+        margin-bottom: 30px;
+    }
+
+    /* Artigos */
+    article {
+        background-color: white;
+        padding: 15px;
+        margin-bottom: 20px;
+        border-radius: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+
+    article h3 {
+        margin-top: 0;
+    }
+
+    article > aside {
+        background-color: #eee;
+        padding: 10px;
+        margin-top: 10px;
+        border-left: 5px solid #988aa5;
+        font-size: 0.9em;
+    }
+
+    /* Footer */
+    footer {
+        background-color: #988aa5;
+        color: white;
+        text-align: center;
+        padding: 15px 0;
+        margin-top: 20px;
+    }
+</style>
+</head>
+<body>
+
+<header>
+    <h1>Título do site de André</h1>
+    <nav>
+        <ul>
+            <li><a href="#">Início</a></li>
+            <li><a href="#">Notícias</a></li>
+            <li><a href="#">Esportes</a></li>
+            <li><a href="#">Tecnologia</a></li>
+            <li><a href="#">Contato</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+    <section id="assuntos">
+        <h2>Assuntos do Momento</h2>
+        <p>Política, Economia, Esportes, Tecnologia.</p>
+    </section>
+
+    <section id="noticias">
+        <h2>Últimas Notícias</h2>
+
+        <article>
+            <h3>Notícia sobre o Brasil</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+            Explicabo deserunt maiores itaque pariatur autem, voluptas iure 
+            veritatis blanditiis.</p>
+            <aside>
+                <p>Artigo escrito por José da Silva</p>
+            </aside>
+        </article>
+
+        <article>
+            <h3>Notícia sobre Tecnologia</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+            Eveniet aliquam, numquam iste vitae cum dicta voluptatum aliquid.</p>
+            <aside>
+                <p>Artigo escrito por Maria Oliveira</p>
+            </aside>
+        </article>
+    </section>
+</main>
+
+<footer>
+    <p>Exemplo de código feito por André - &copy; 2025</p>
+</footer>
+
+</body>
+</html>
